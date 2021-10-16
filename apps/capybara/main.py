@@ -13,7 +13,7 @@ class Capybara(QMainWindow):
         self.setCentralWidget(self.editor)
         self.font_size_box = QSpinBox()
         self.showMaximized()
-        self.setWindowTitle('My BS Word')
+        self.setWindowTitle('Capybara PDF Editor')
         self.create_tool_bar()
         self.create_menu_bar()
 
