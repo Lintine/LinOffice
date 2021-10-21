@@ -36,9 +36,6 @@ class MainApp(QMainWindow):
         menuBar = QMenuBar(self)
 
         """ add elements to the menubar """
-        # App icon will go here
-        app_icon = menuBar.addMenu(QIcon("doc_icon.png"), "icon")
-
         # file menu **
         file_menu = QMenu("File", self)
         menuBar.addMenu(file_menu)
