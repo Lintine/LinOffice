@@ -13,7 +13,7 @@ class MainApp(QMainWindow):
         super().__init__()                         # parent class initializer
 
         # window title
-        self.title = "LinOffice Capybara"
+        self.title = "Capybara"
         self.setWindowTitle(self.title)
         
         # editor section
